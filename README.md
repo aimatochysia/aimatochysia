@@ -8,7 +8,7 @@
 Open to collaboration, innovation, and building tools that both delight & solve problems.
 
 <p align="center">
-  <img src="assets/divider.jpg" alt="Divider" width="60%" />
+  <img src="assets/divider.jpg" alt="Divider" width="100%" />
 </p>
 
 ## 💼 About Me
@@ -18,7 +18,7 @@ Open to collaboration, innovation, and building tools that both delight & solve 
 - Love exploring creative coding, UI/UX, extensions, and integrations  
 
 <p align="center">
-  <img src="assets/divider.jpg" alt="Divider" width="60%" />
+  <img src="assets/divider.jpg" alt="Divider" width="100%" />
 </p>
 
 ## 🔭 What I’m Working On / Interests
@@ -31,7 +31,7 @@ These are some of the areas that excite me:
 - Creative / aesthetic code (interactive visuals, wallpapers, code clocks)  
 
 <p align="center">
-  <img src="assets/divider.jpg" alt="Divider" width="60%" />
+  <img src="assets/divider.jpg" alt="Divider" width="100%" />
 </p>
 
 ## ⭐ Selected Projects
@@ -46,7 +46,7 @@ These are some of the areas that excite me:
 | [**ficbatch**](https://github.com/aimatochysia/ficbatch) | Mobile app to download and read AO3 fanfics in bulk. Practical and community-focused tool. |
 
 <p align="center">
-  <img src="assets/divider.jpg" alt="Divider" width="60%" />
+  <img src="assets/divider.jpg" alt="Divider" width="100%" />
 </p>
 
 ## 🌱 Skills & Tools
@@ -57,7 +57,7 @@ These are some of the areas that excite me:
 - **Other Interests:** Interactive visuals, generative art, design systems
 
 <p align="center">
-  <img src="assets/divider.jpg" alt="Divider" width="60%" />
+  <img src="assets/divider.jpg" alt="Divider" width="100%" />
 </p>
 
 ## 📫 Let’s Connect
@@ -67,7 +67,7 @@ These are some of the areas that excite me:
 - 🐦 X / Twitter: [**@michaelxpetra**](https://x.com/michaelxpetra)
 
 <p align="center">
-  <img src="assets/divider.jpg" alt="Divider" width="60%" />
+  <img src="assets/divider.jpg" alt="Divider" width="100%" />
 </p>
 
 ## 🚀 What’s Next
