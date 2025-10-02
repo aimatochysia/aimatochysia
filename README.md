@@ -39,13 +39,13 @@ Areas of particular engagement include:
 
 | Project | Description |
 |---------|-------------|
+| [**Q-Safe Vault**](https://github.com/aimatochysia/qsafevault) | Quantum safe cross-platform password manager |
 | [**stock-screener**](https://github.com/aimatochysia/stock-screener) | A system for screening Indonesian stocks using various techniques both fundamental and technical, merging finance with data engineering. |
 | [**Wallpaper-Engine-Code-Clock**](https://github.com/aimatochysia/Wallpaper-Engine-Code-Clock) | Customizable clock wallpaper using code language style, uniting aesthetics and practical functionality. |
 | [**ficbatch**](https://github.com/aimatochysia/ficbatch) | Mobile application designed to facilitate bulk download and reading of AO3 fanfiction. A practical and community-driven initiative. |
 | [**Pinoted**](https://github.com/aimatochysia/Discord-RPC) | Note-taking application that allows you to create sticky notes that stay on your screen. It is built using Java and provides the ability to organize multiple notes within a notebook. |
 | [**Color Picker Extension**](https://github.com/aimatochysia/color-picker-extension) | Chrome extension enabling precise color selection, with support for dynamic backgrounds and HEX/RGB toggling. |
 | [**Discord RPC**](https://github.com/aimatochysia/Discord-RPC) | Rich presence tool integrating dynamic application cycling with GIF support, balancing utility with user experience. |
-| [**Pending Publication - Ai Usage in Finding of CXR Abnormalities**](https://github.com/aimatochysia/CXR-Radiology-Analysis-and-Diagnosis-System) | Deep learning model for pneumonia detection via chest X-rays, highlighting healthcare applications of machine learning. |
 
 <p align="center">
   <img src="assets/divider.jpg" alt="Divider" width="100%" />
