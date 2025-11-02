@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="2024" viewBox="0 0 1200 2024">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#24243e;#0f0c29" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#24243e">
+        <animate attributeName="stop-color" values="#24243e;#302b63;#24243e" dur="14s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="strokeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="50%" stop-color="#ff00ff"/>
+      <stop offset="100%" stop-color="#00eaff"/>
+    </linearGradient>
+
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#00eaff" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ff00ff" flood-opacity="0.65"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#00eaff" flood-opacity="0.35"/>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00eaff" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <style><![CDATA[
+      :root {
+        --fg: #dff8ff;
+        --muted: #9ad7ff;
+        --cyan: #00eaff;
+        --mag: #ff00ff;
+        --y: #fffb00;
+        --card: rgba(255,255,255,0.02);
+        --card-hover: rgba(0, 234, 255, 0.08);
+        font-family: "Segoe UI", system-ui, -apple-system, "Inter", Roboto, Arial, sans-serif;
+      }
+      .heading { fill: var(--fg); letter-spacing: 1px; }
+      .subtle { fill: var(--muted); }
+      .card { fill: var(--card); stroke: url(#strokeGrad); stroke-width: 2; rx: 14; }
+      .card:hover { fill: var(--card-hover); }
+      .chip { fill: rgba(0,0,0,0.2); stroke: url(#strokeGrad); stroke-width: 1.2; rx: 10; }
+      .chip-text { fill: var(--fg); font-size: 16px; }
+      .section-title { fill: var(--fg); font-size: 26px; letter-spacing: .5px; }
+      .scan { animation: scan 7s linear infinite; }
+      @keyframes scan {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(100%); }
+      }
+      .flicker { animation: flick 6s infinite; }
+      @keyframes flick {
+        0%,97%,100% { opacity: 1; }
+        98% { opacity: .45; }
+        99% { opacity: .8; }
+      }
+      a { cursor: pointer; text-decoration: none; }
+    ]]></style>
+  </defs>
+
+<rect x="0" y="0" width="100%" height="100%" fill="url(#bg)"/>
+<rect x="0" y="0" width="100%" height="100%" fill="url(#grid)" opacity="0.35"/>
+<rect class="scan" x="0" y="0" width="100%" height="220" fill="url(#scanGrad)" style="mix-blend-mode: screen;"/>
+<rect x="40" y="40" width="1120" height="3" fill="url(#strokeGrad)"/>
+<text x="600.0" y="90" text-anchor="middle" font-size="56" class="heading flicker" filter="url(#neon)">Petra Michael</text>
+<text x="600.0" y="146" text-anchor="middle" font-size="22" class="subtle">Software Developer — Jakarta, Indonesia</text>
+<text x="40" y="172" font-size="18" class="subtle">Dedicated to the development of tools and systems that combine innovation,</text>
+<text x="40" y="196" font-size="18" class="subtle">functionality, and user-focused design.</text>
+<text x="40" y="220" font-size="18" class="subtle">Open to collaboration in software engineering, automation, and applied machine</text>
+<text x="40" y="244" font-size="18" class="subtle">learning.</text>
+<rect x="40" y="278" width="1120" height="2" fill="url(#strokeGrad)" opacity="0.8"/>
+<text x="40" y="314" class="section-title" filter="url(#neon)">Profile</text>
+<text x="48" y="348" font-size="18" class="heading">• Current Role: Software Development Engineering Intern at IDEMIA IST</text>
+<text x="48" y="374" font-size="18" class="heading">• Academic Status: Undergraduate Student at Bina Nusantara University, Computer Science</text>
+<text x="48" y="400" font-size="18" class="heading">• Primary Focus: Full-stack, data-driven apps, ML systems, workflow optimization</text>
+<text x="48" y="426" font-size="18" class="heading">• Additional Interests: Creative coding, UI/UX, browser extensions, system integrations</text>
+<text x="40" y="470" class="section-title" filter="url(#neon)">Projects</text>
+<a xlink:href="https://github.com/aimatochysia/qsafevault" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="492" width="1120" height="90" />
+  <text x="56" y="518" font-size="22" class="heading">Q-Safe Vault</text>
+  <text x="56" y="544" font-size="16" class="subtle">Quantum safe cross-platform password manager</text>
+</a>
+<a xlink:href="https://github.com/aimatochysia/stock-screener" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="594" width="1120" height="110" />
+  <text x="56" y="620" font-size="22" class="heading">Stock-Screener</text>
+  <text x="56" y="646" font-size="16" class="subtle">Screening Indonesian stocks using techniques across fundamentals and technicals; finance +</text>
+  <text x="56" y="666" font-size="16" class="subtle">data engineering.</text>
+</a>
+<a xlink:href="https://github.com/aimatochysia/Wallpaper-Engine-Code-Clock" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="716" width="1120" height="90" />
+  <text x="56" y="742" font-size="22" class="heading">Wallpaper-Engine-Code-Clock</text>
+  <text x="56" y="768" font-size="16" class="subtle">Customizable clock wallpaper in a code-language style; aesthetics + practicality.</text>
+</a>
+<a xlink:href="https://github.com/aimatochysia/ficbatch" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="818" width="1120" height="110" />
+  <text x="56" y="844" font-size="22" class="heading">FicBatch</text>
+  <text x="56" y="870" font-size="16" class="subtle">Mobile app for bulk download and reading of AO3 fanfiction; practical and community-</text>
+  <text x="56" y="890" font-size="16" class="subtle">driven.</text>
+</a>
+<a xlink:href="https://github.com/aimatochysia/Discord-RPC" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="940" width="1120" height="90" />
+  <text x="56" y="966" font-size="22" class="heading">Pinoted</text>
+  <text x="56" y="992" font-size="16" class="subtle">Sticky note-taking app (Java) with multi-note organization.</text>
+</a>
+<a xlink:href="https://github.com/aimatochysia/color-picker-extension" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="1042" width="1120" height="90" />
+  <text x="56" y="1068" font-size="22" class="heading">Color Picker Extension</text>
+  <text x="56" y="1094" font-size="16" class="subtle">Chrome extension for precise color selection, dynamic backgrounds, and HEX/RGB toggling.</text>
+</a>
+<a xlink:href="https://github.com/aimatochysia/Discord-RPC" target="_blank" rel="noopener noreferrer">
+  <rect class="card" x="40" y="1144" width="1120" height="90" />
+  <text x="56" y="1170" font-size="22" class="heading">Discord RPC</text>
+  <text x="56" y="1196" font-size="16" class="subtle">Rich presence tool with dynamic app cycling and GIF support.</text>
+</a>
+<rect x="40" y="1254" width="1120" height="2" fill="url(#strokeGrad)" opacity="0.8"/>
+<text x="40" y="1290" class="section-title" filter="url(#neon)">Skills</text>
+<text x="40" y="1316" font-size="18" class="heading">Programming Languages:</text>
+<rect class="chip" x="40" y="1326" width="85.6" height="32"/>
+<text class="chip-text" x="52" y="1348.0">Python</text>
+<rect class="chip" x="135.6" y="1326" width="124.0" height="32"/>
+<text class="chip-text" x="147.6" y="1348.0">JavaScript</text>
+<rect class="chip" x="269.6" y="1326" width="162.4" height="32"/>
+<text class="chip-text" x="281.6" y="1348.0">Dart (Flutter)</text>
+<rect class="chip" x="442.0" y="1326" width="66.4" height="32"/>
+<text class="chip-text" x="454.0" y="1348.0">Java</text>
+<rect class="chip" x="518.4" y="1326" width="85.6" height="32"/>
+<text class="chip-text" x="530.4" y="1348.0">Jython</text>
+<rect class="chip" x="614.0" y="1326" width="104.8" height="32"/>
+<text class="chip-text" x="626.0" y="1348.0">HTML/CSS</text>
+<rect class="chip" x="728.8" y="1326" width="152.8" height="32"/>
+<text class="chip-text" x="740.8" y="1348.0">APDU Protocol</text>
+<rect class="chip" x="891.5999999999999" y="1326" width="104.8" height="32"/>
+<text class="chip-text" x="903.5999999999999" y="1348.0">Javacard</text>
+<text x="40" y="1378" font-size="18" class="heading">Frameworks and Technologies:</text>
+<rect class="chip" x="40" y="1388" width="95.2" height="32"/>
+<text class="chip-text" x="52" y="1410.0">ReactJS</text>
+<rect class="chip" x="145.2" y="1388" width="76.0" height="32"/>
+<text class="chip-text" x="157.2" y="1410.0">Flask</text>
+<rect class="chip" x="231.2" y="1388" width="95.2" height="32"/>
+<text class="chip-text" x="243.2" y="1410.0">Flutter</text>
+<rect class="chip" x="336.4" y="1388" width="95.2" height="32"/>
+<text class="chip-text" x="348.4" y="1410.0">Jupyter</text>
+<rect class="chip" x="441.59999999999997" y="1388" width="229.6" height="32"/>
+<text class="chip-text" x="453.59999999999997" y="1410.0">Chrome Extension APIs</text>
+<rect class="chip" x="681.1999999999999" y="1388" width="85.6" height="32"/>
+<text class="chip-text" x="693.1999999999999" y="1410.0">NextJS</text>
+<text x="40" y="1440" font-size="18" class="heading">Development Practices:</text>
+<rect class="chip" x="40" y="1450" width="56.8" height="32"/>
+<text class="chip-text" x="52" y="1472.0">Git</text>
+<rect class="chip" x="106.8" y="1450" width="162.4" height="32"/>
+<text class="chip-text" x="118.8" y="1472.0">GitHub Actions</text>
+<rect class="chip" x="279.2" y="1450" width="95.2" height="32"/>
+<text class="chip-text" x="291.2" y="1472.0">VS Code</text>
+<rect class="chip" x="384.4" y="1450" width="220.0" height="32"/>
+<text class="chip-text" x="396.4" y="1472.0">Automation workflows</text>
+<rect class="chip" x="614.4" y="1450" width="172.0" height="32"/>
+<text class="chip-text" x="626.4" y="1472.0">UI/UX workflows</text>
+<text x="40" y="1502" font-size="18" class="heading">Creative and Design:</text>
+<rect class="chip" x="40" y="1512" width="114.39999999999999" height="32"/>
+<text class="chip-text" x="52" y="1534.0">Blender3D</text>
+<rect class="chip" x="164.39999999999998" y="1512" width="114.39999999999999" height="32"/>
+<text class="chip-text" x="176.39999999999998" y="1534.0">Pixel Art</text>
+<rect class="chip" x="288.79999999999995" y="1512" width="210.4" height="32"/>
+<text class="chip-text" x="300.79999999999995" y="1534.0">Interactive Systems</text>
+<rect class="chip" x="509.19999999999993" y="1512" width="239.2" height="32"/>
+<text class="chip-text" x="521.1999999999999" y="1534.0">Applied ML (YOLO, CNN)</text>
+<rect x="40" y="1564" width="1120" height="2" fill="url(#strokeGrad)" opacity="0.8"/>
+<text x="40" y="1600" class="section-title" filter="url(#neon)">Contact</text>
+<a xlink:href="https://www.instagram.com/azraelhael" target="_blank" rel="noopener noreferrer">
+  <text x="48" y="1628" font-size="18" class="heading">⟶ Instagram @azraelhael</text>
+</a>
+<a xlink:href="https://www.linkedin.com/in/aimatochysia" target="_blank" rel="noopener noreferrer">
+  <text x="48" y="1654" font-size="18" class="heading">⟶ LinkedIn aimatochysia</text>
+</a>
+<a xlink:href="https://x.com/michaelxpetra" target="_blank" rel="noopener noreferrer">
+  <text x="48" y="1680" font-size="18" class="heading">⟶ Twitter @michaelxpetra</text>
+</a>
+<rect x="40" y="1714" width="1120" height="2" fill="url(#strokeGrad)" opacity="0.8"/>
+<text x="40" y="1750" class="section-title" filter="url(#neon)">Interests</text>
+<text x="48" y="1776" font-size="18" class="heading">• Astrophysics and material science</text>
+<text x="48" y="1802" font-size="18" class="heading">• Polishing frontend design and experience</text>
+<text x="48" y="1828" font-size="18" class="heading">• More IoT projects</text>
+<text x="48" y="1854" font-size="18" class="heading">• Taking care of plants 🌱</text>
+<text x="40" y="1898" font-size="16" class="subtle"> “The end of law is not to abolish or restrain, but to preserve and enlarge</text>
+<text x="40" y="1918" font-size="16" class="subtle"> freedom.”</text>
+<text x="1160" y="1946" text-anchor="end" font-size="12" class="subtle">Generated 2025-11-02 16:17 UTC</text>
+<rect x="40" y="1964" width="1120" height="3" fill="url(#strokeGrad)"/>
+</svg>
