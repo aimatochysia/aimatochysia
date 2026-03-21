@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="assets/banner.svg" alt="Banner" width="100%" />
-</p>
+</p> -->
 
 ## Profile
 
@@ -8,7 +8,7 @@
 Dedicated to the development of tools and systems that combine innovation, functionality, and user-focused design.  
 Open to collaboration in areas spanning software engineering, automation, and applied machine learning.
 
-- Current Role: Software Development Engineering Intern at IDEMIA IST  
+- Last Role: Software Development Engineering Intern at IDEMIA IST  
 - Academic Status: Undergraduate Student at Bina Nusantara Univeristy in Computer Science Major
 - Primary Focus: Full-stack development, data-driven applications, machine learning systems, workflow optimization, 
 - Additional Interests: Creative coding, user interface/experience design, browser extensions, system integrations  
