@@ -49,7 +49,6 @@ Open to collaboration in areas spanning software engineering, automation, and ap
 
 - Instagram: [**@azraelhael**](https://www.instagram.com/azraelhael)  
 - LinkedIn: [**aimatochysia**](https://www.linkedin.com/in/aimatochysia)  
-- Twitter (X): [**@michaelxpetra**](https://x.com/michaelxpetra)  
 
 <p align="center">
   <img src="assets/divider.svg" alt="Divider" width="100%" />
