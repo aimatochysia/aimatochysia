@@ -22,13 +22,13 @@ Open to collaboration in areas spanning software engineering, automation, and ap
 
 | Name | Description |
 |---------|-------------|
-| [**Q-Safe Vault**](https://github.com/aimatochysia/qsafevault) | Quantum safe cross-platform password manager |
+| [**Clotho**](https://github.com/aimatochysia/clotho) | Multi platform github manager GUI |
+| [**Hermes**](https://github.com/aimatochysia/hermes) | Comprised of indepth 3d world building as well as code obfucation and flattening|
 | [**Stock-Screener**](https://github.com/aimatochysia/stock-screener) | A system for screening Indonesian stocks using various techniques both fundamental and technical, merging finance with data engineering. |
 | [**Wallpaper-Engine-Code-Clock**](https://github.com/aimatochysia/Wallpaper-Engine-Code-Clock) | Customizable clock wallpaper using code language style, uniting aesthetics and practical functionality. |
 | [**FicBatch**](https://github.com/aimatochysia/ficbatch) | Mobile application designed to facilitate bulk download and reading of AO3 fanfiction. A practical and community-driven initiative. |
 | [**Pinoted**](https://github.com/aimatochysia/Discord-RPC) | Note-taking application that allows you to create sticky notes that stay on your screen. It is built using Java and provides the ability to organize multiple notes within a notebook. |
 | [**Color Picker Extension**](https://github.com/aimatochysia/color-picker-extension) | Chrome extension enabling precise color selection, with support for dynamic backgrounds and HEX/RGB toggling. |
-| [**Discord RPC**](https://github.com/aimatochysia/Discord-RPC) | Rich presence tool integrating dynamic application cycling with GIF support, balancing utility with user experience. |
 
 <p align="center">
   <img src="assets/divider.svg" alt="Divider" width="100%" />
