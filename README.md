@@ -23,7 +23,7 @@ Open to collaboration in areas spanning software engineering, automation, and ap
 | Name | Description |
 |---------|-------------|
 | [**Clotho**](https://github.com/aimatochysia/clotho) | Multi platform github manager GUI |
-| [**Hermes**](https://github.com/aimatochysia/hermes) | Comprised of indepth 3d world building as well as code obfucation and flattening|
+| [**Hermes, Hephaestus, & Fortuna**](https://github.com/aimatochysia/hermes) | Comprised of indepth 3d world building under Hephaestus as well as code obfucation and flattening before release under Fortuna|
 | [**Stock-Screener**](https://github.com/aimatochysia/stock-screener) | A system for screening Indonesian stocks using various techniques both fundamental and technical, merging finance with data engineering. |
 | [**Wallpaper-Engine-Code-Clock**](https://github.com/aimatochysia/Wallpaper-Engine-Code-Clock) | Customizable clock wallpaper using code language style, uniting aesthetics and practical functionality. |
 | [**FicBatch**](https://github.com/aimatochysia/ficbatch) | Mobile application designed to facilitate bulk download and reading of AO3 fanfiction. A practical and community-driven initiative. |
